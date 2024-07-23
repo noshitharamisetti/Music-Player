@@ -1,0 +1,23 @@
+/* src/App.css */
+.music-library {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.song-card {
+  width: 100%;
+  max-width: 400px;
+}
+
+@media (min-width: 768px) {
+  .music-library {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .song-card {
+    margin: 10px;
+  }
+}
